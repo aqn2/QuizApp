@@ -1,0 +1,124 @@
+[
+  {
+    "category": "Easy",
+    "question": "Which type is steel super effective against?",
+    "answers" : ["Ground", "Water", "Rock", "Bug"],
+    "correctAnswer" : "Rock"
+  },
+  {
+    "category": "Easy",
+    "question": "Leaf Blade is the signature move of which Pokémon?",
+    "answers" : ["Farfetch’d", "Sceptile", "Virizion", "Shiftrey"],
+    "correctAnswer" : "Sceptile"
+  },
+  {
+    "category": "Easy",
+    "question": "What type is Alolan Dugtrio?",
+    "answers" : ["Fairy", "Rock", "Normal", "Ground"],
+    "correctAnswer" : "Ground"
+  },
+  {
+    "category": "Easy",
+    "question": "How many pokemon are originally from the Kanto region?",
+    "answers" : ["251", "151", "243", "143"],
+    "correctAnswer" : "151"
+  },
+  {
+    "category": "Easy",
+    "question": "Which of the following Pokémon is not mythical?",
+    "answers" : ["Mewtwo", "Deoxys", "Arceus", "Darkrai"],
+    "correctAnswer" : "Mewtwo"
+  },
+
+  {
+    "category": "Medium",
+    "question": "Who did ash lose to in the Kalos Pokémon league?",
+    "answers" : ["Trevor", "Alan", "Sawyer", "Tobias"],
+    "correctAnswer" : "Alan"
+  },
+  {
+    "category": "Medium",
+    "question": "Which of the following is the best counter to Kyurem?",
+    "answers" : ["Dragonite", "Garchomp", "Duraladon", "Salamence"],
+    "correctAnswer" : "Duraladon"
+  },
+  {
+    "category": "Medium",
+    "question": "Which of the following was the main reason Pokémon added the fairy type?",
+    "answers" : ["Dragon needed a better counter", "There were too many normal types", "Wigglytuff was just too tuff", "They needed to spice things up"],
+    "correctAnswer" : "Dragon needed a better counter"
+  },
+  {
+    "category": "Medium",
+    "question": "What ability made Ash’s Greninja so powerful in the Kalos anime?",
+    "answers" : ["Torrent", "Water absorb", "Battle bond", "Static"],
+    "correctAnswer" : "Battle bond"
+  },
+  {
+    "category": "Medium",
+    "question": "Which country is the Unova region based off of?",
+    "answers" : ["United Kingdom", "United States of America", "Japan", "France"],
+    "correctAnswer" : "United States of America"
+  },
+
+  {
+    "category": "MediumHard",
+    "question": "What Pokémon has spent the second longest time with Ash?",
+    "answers" : ["Charizard", "Squirtle", "Snorlax", "Bulbasaur"],
+    "correctAnswer" : "Bulbasaur"
+  },
+  {
+    "category": "MediumHard",
+    "question": "Which Pokémon is not based on a cat?",
+    "answers" : ["Skitty", "Zoroua", "Purrloin", "Incineroar"],
+    "correctAnswer" : "Zoroua"
+  },
+  {
+    "category": "MediumHard",
+    "question": "Fill in the blank: “Prepare for trouble and get ready to dance, ____________”",
+    "answers" : ["To unite all people within our nation", "We’re going to steal your salamance", "I’m wearing tights instead of pants", "We are even more annoying than ants"],
+    "correctAnswer" : "I’m wearing tights instead of pants"
+  },
+  {
+    "category": "MediumHard",
+    "question": "Which type was not originally in the Kanto region?",
+    "answers" : ["Ghost", "Dark", "Bug", "Poison"],
+    "correctAnswer" : "Dark"
+  },
+  {
+    "category": "MediumHard",
+    "question": "Which Pokémon cannot evolve?",
+    "answers" : ["Magmar", "Dusclops", "Cosmog", "Luvdisc"],
+    "correctAnswer" : "Luvdisc"
+  },
+  {
+    "category": "Hard",
+    "question": "How many Tauros did Ash catch in his first trip to the safari zone?",
+    "answers" : ["16", "20", "26", "30"],
+    "correctAnswer" : "30"
+  },
+  {
+    "category": "Hard",
+    "question": "Which of the following has the lowest base stat total(weakest)?",
+    "answers" : ["Caterpie", "Sunkern", "Magikarp", "Wishiwashi(solo form)"],
+    "correctAnswer" : "Wishiwashi(solo form)"
+  },
+  {
+    "category": "Hard",
+    "question": "In the Sinnoh League Semi-Finals, how did Ash’s Infernape overcome Paul’s toxic spikes?",
+    "answers" : ["By using flare blitz underground", "By burning them with flamethrower", "By using earthquake to shake them off the field", "By switching into a flying type"],
+    "correctAnswer" : "By using flare blitz underground"
+  },
+  {
+    "category": "Hard",
+    "question": "How many signature moves does Zygarde have?",
+    "answers" : ["1", "2", "3", "4"],
+    "correctAnswer" : "4"
+  },
+  {
+    "category": "Hard",
+    "question": "Which of the following moves can Pikachu actually not learn?",
+    "answers" : ["Iron tail", "Volt tackle", "Double team", "Thunder"],
+    "correctAnswer" : "Volt tackle"
+  }
+]
