@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import org.w3c.dom.Text
@@ -18,6 +19,8 @@ class MainActivity : AppCompatActivity() {
     lateinit var q2Display : Button
     lateinit var q3Display : Button
     lateinit var q4Display : Button
+
+    var answer = ""
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,7 +40,27 @@ class MainActivity : AppCompatActivity() {
 
         quiz = Quiz(questions)
 
+        setNextQuestion()
+
         wireWidgets()
+
+
+        q1Display.setOnClickListener{
+            answer = q1Display.text.toString()
+            checkAnswerAndUpdateUI(answer)
+        }
+        q2Display.setOnClickListener{
+            answer = q2Display.text.toString()
+            checkAnswerAndUpdateUI(answer)
+        }
+        q3Display.setOnClickListener{
+            answer = q3Display.text.toString()
+            checkAnswerAndUpdateUI(answer)
+        }
+        q4Display.setOnClickListener{
+            answer = q4Display.text.toString()
+            checkAnswerAndUpdateUI(answer)
+        }
 
 
     }
@@ -49,6 +72,37 @@ class MainActivity : AppCompatActivity() {
         q3Display = findViewById(R.id.main_answer3)
         q4Display = findViewById(R.id.main_answer4)
 
+    }
+
+    private fun checkAnswerAndUpdateUI(answer: String){
+        val response = quiz.grade(answer)
+
+        if(response){
+            Toast.makeText(this@MainActivity,"Correcto Expresso", Toast.LENGTH_SHORT).show()
+        }
+        else{
+            Toast.makeText(this@MainActivity,"Cubchoooooo?", Toast.LENGTH_SHORT).show()
+        }
+
+        setNextQuestion()
+    }
+
+    private fun setNextQuestion() {
+        if(quiz.checkIndex()){
+            showFinalText()
+        }
+        else{
+            qDisplay.text = quiz.questionText()
+            q1Display.text = quiz.answer1Text()
+            q2Display.text = quiz.answer2Text()
+            q3Display.text = quiz.answer3Text()
+            q4Display.text = quiz.answer4Text()
+        }
+
+    }
+
+    private fun showFinalText() {
+        TODO("Not yet implemented")
     }
 
 
