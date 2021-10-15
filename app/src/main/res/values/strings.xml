@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">QuizApp</string>
     <string name="answer1">Button</string>
+    <string name = "main_score">Score = </string>
+    <string name = "main_50result">"Dim sum cookie cat?"</string>
+    <string name = "main_35result">"You are a Pokemon master!"</string>
+    <string name = "main_20result">"Are you a gym leader?"</string>
+    <string name = "main_10result">"Ash Ketchum oh no no"</string>
+    <string name = "main_0result">"Look it's youngster Joey!"</string>
+
 </resources>
